@@ -35,8 +35,6 @@ public class BFS_pratice {
 
     }
 
-
-
     static int bfs(int sr,int sc) {
         int[][] dist = new int[n][m];
 
@@ -65,8 +63,8 @@ public class BFS_pratice {
                 if (nr < 0 || nc < 0 || nr >= n || nc >= m) {
                     continue;
                 }
-                // map : 1 = 길, 0 = 벽
 
+                // map : 1 = 길, 0 = 벽
                 if (nr < 0 || nc < 0 || dist[nr][nc] != -1) continue; //
 
 
